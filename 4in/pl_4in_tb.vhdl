@@ -1,5 +1,3 @@
-
-
 entity pl_4in_tb is
 end;
 

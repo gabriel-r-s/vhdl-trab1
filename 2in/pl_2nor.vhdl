@@ -1,7 +1,3 @@
-
-
-
-
 entity pl_2nor is
     port(
         a: in bit;

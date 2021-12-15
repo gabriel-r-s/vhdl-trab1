@@ -1,6 +1,3 @@
-
-
-
 entity pl_2and is
     port(
         a: in bit;

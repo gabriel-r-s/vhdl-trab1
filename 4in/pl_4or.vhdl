@@ -1,6 +1,3 @@
-
-
-
 entity pl_4or is
     port(
         a: in bit;

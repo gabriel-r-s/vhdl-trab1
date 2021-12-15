@@ -1,7 +1,5 @@
-
-
-
-entity pl_2in_tb is end;
+entity pl_2in_tb is
+end;
 
 
 architecture tb of pl_2in_tb is
@@ -60,7 +58,7 @@ begin
     -- explicita
     -- u_pl_or_win_e: pl_or_2in port map(B => sB, s => sOR, A => sA);
     
-    u_tb : process
+    u_tb: process
     begin
         sa <= '0';
         sb <= '0';

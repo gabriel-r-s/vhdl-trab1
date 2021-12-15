@@ -1,6 +1,6 @@
-
 entity pl_3in_tb is
 end;
+
 
 architecture tb of pl_3in_tb is
     component pl_3and is
@@ -26,13 +26,11 @@ architecture tb of pl_3in_tb is
     signal sand, sor: bit;
 
 begin
-
     u_pl_3and: pl_3and port map(sa, sb, sc, sand);
     u_pl_3or: pl_3or port map(sa, sb, sc, sor);
 
     
     u_tb: process
-
     begin
         sa <= '0';
         sb <= '0';
