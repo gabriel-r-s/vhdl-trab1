@@ -1,8 +1,8 @@
-# cria uma sequencia de testes para
-# o process de uma testbench,
+# cria uma sequencia de testes para o process de uma testbench,
+# com todas as combinacoes de '0' e '1',
+# de acordo com a len da lista options
 # separados por `wait {TIME};`
-# e termina com o tempo total,
-# necessario para o gtkwave
+# e termina com o tempo total, necessario para o gtkwave
 
 TIME = 10
 
